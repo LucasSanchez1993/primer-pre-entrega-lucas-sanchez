@@ -1,0 +1,79 @@
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* navegador de index */
+
+.nave{
+    background-color: rgb(76, 182, 182);
+        display: block;
+        display: flex;
+        justify-content: space-around;
+        padding-top: 8px;
+    }
+.nave h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    color: rgb(56, 28, 2);
+}    
+.nave ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+    gap: 1rem;
+    padding: 5px;
+}
+.nave ul li{
+    display: block;
+    border-style: ridge;
+    border-color: blueviolet;
+    color: brown;
+    background-color: blanchedalmond;
+    padding: 7px;
+}
+
+/* menu de mi html */
+
+.menuin{
+    background-image: url(/img/b273550770ef6f320f0683664a77517c.jpg);
+    text-align: center;   
+}
+.menuin h1{
+    background-color: rgb(108, 182, 182);
+}
+.menuin h2{
+    background-color: rgb(151, 184, 184);
+}
+.menuin button{
+    border-style: dashed;
+    padding: 1rem;
+    background-color: black;
+    color: aliceblue;
+    
+}
+/* imagen */
+
+.imagen{
+    width: 97%;
+    border-radius: 50%;
+    align-items: center;
+}
+
+/* la seccion de mi index principal */
+section{
+    background-color: rgb(57, 121, 100);
+    color: beige;
+}
+
+/* footer para todos */
+footer{
+    color: blue;
+    background-color: yellowgreen;
+    text-align: center;
+    font-weight: 800;
+}
